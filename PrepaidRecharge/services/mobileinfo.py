@@ -23,7 +23,7 @@ def getHTMLDoc(url):
     return response.text
 
 '''
-Method to getting plans,operator and country of a phone number.
+Method for getting plans,operator and country of a phone number.
 '''
 def getInfo(number,operator , circle):
     new_circle = circle.split(" ")
