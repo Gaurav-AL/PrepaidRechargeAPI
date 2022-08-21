@@ -1,3 +1,7 @@
+'''
+Without WebScraping Passing Dummy Plans..
+For testing
+'''
 def getInfo(number , operator , circle):
     if(operator == 'Airtel' and circle == 'Delhi NCR'):
         return getAirtelDelhiNCRPlans()
